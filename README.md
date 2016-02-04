@@ -14,7 +14,7 @@ $ npm install --save 4each
 const each = require('4each')
 
 // Array
-each([1, 2, 3], (val, index) => {})
+each([1, 2, 3], (value, index) => {})
 // Dom NodeList
 each(document.querySelectorAll('div'), (element, index) => {})
 // Plain Object
